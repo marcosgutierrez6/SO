@@ -24,7 +24,7 @@ int main(void) {
         }
 
         if (repetido) {
-            printf("El caracter '%c' se repite.\n", string[i]);
+            printf("El caracter '%c' se repite en la palabra %s.\n", string[i], string);
         }
 
         // Marcamos el caracter como encontrado
