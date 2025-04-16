@@ -54,7 +54,9 @@ int main(void) {
 
     // Enviar SIGKILL a los procesos
     kill(proceso_lee, SIGKILL);
+    puts("Proceso lee: Terminando...");
     kill(proceso_escribe, SIGKILL);
-
+    puts("Proceso escribe: Terminando...");
+    puts("Proceso padre: Terminando...");
     return 0;
 }
