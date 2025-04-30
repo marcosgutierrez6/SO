@@ -4,7 +4,7 @@
 #include <sys/types.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(void *args) {
     int var1, var2;
     pid_t suma, resta;
 
